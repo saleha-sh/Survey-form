@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+*{box-sizing: border-box; font-family: Merriweather}
+.title{font-size: 1.2rem; font-weight: bold; margin-top: 15px; margin-bottom: 5px;}
+body{background:linear-gradient(to left,rgba(126, 125, 125, 0.5),rgba(146, 145, 145, 0.5)),url("https://douron.com/wp-content/uploads/2017/06/Douron_12-700x400.jpg");
+background-repeat:no-repeat;
+background-size: cover;}
+#myform{
+    background:linear-gradient(to left,rgba(99, 38, 91, 0.5),rgba(99, 38, 91, 0.5));
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+label{color:white}
+.txt{width:95%;padding:7px 5px;border-radius: 5px;}
+.control{margin-bottom: 10px;}
+#title{color:white;text-align: center;}
+#description{color:white;text-align: center;font-size: 30px;}
+#submit{width:85%;margin-left:5%;background-color: rgb(82, 30, 75); color: white;padding: 10px 0px;font-weight: bold;}
+#submit:hover{background-color: white;color:rgb(82, 30, 75)}
+@media(max-width:991px)
+{
+    .title{font-size: 1rem;}
+}
